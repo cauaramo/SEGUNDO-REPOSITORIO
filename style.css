@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Monda' ,sans-serif; 
+}
+
 header {
     background-color: #424E61;
     color: white;
@@ -35,4 +39,15 @@ header {
     background-image: linear-gradient(#424E61, #4ebfe9);
     color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
 }
