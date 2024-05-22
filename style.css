@@ -2,9 +2,9 @@
 @import url(/styles/header.css);
 
 :root {
-    --cor-principal: #5DE5F8
-    --cor-secundaria: #00889A
-    --cor-3: #06B6C8
-    --cor-4: #005D6F
-    --cor-5: #003546
+    --cor-principal: #5DE5F8;
+    --cor-secundaria: #00889A;
+    --cor-3: #06B6C8;
+    --cor-4: #005D6F;
+    --cor-5: #003546;
 }
