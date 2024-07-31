@@ -121,7 +121,7 @@
     }
 
 
-    @media  screen and (min-widh: 1728){
+    @media  screen and (min-widh: 1728px){
         .container__link
            display: flex;
            align-items: center;
@@ -140,3 +140,5 @@
     .container__texto{
         display:block;
     }
+
+}
