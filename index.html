@@ -10,8 +10,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Truculenta:opsz,wght@12..72,100..900&display=swap" 
          
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-                 
+        <link rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css""></script>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="styles/apresentac.css">
     </head>
@@ -43,19 +46,14 @@
 
                 <ul class="cabecalho-lista"
                     <li class="cabecalho-lista-item">
-                    <a href="#" class="menu__lista-item">Opção 1 </a>
+                         <a href="#" class="menu__lista-item">Opção 1 </a>
                     </li>
-                
-                    <ul class="cabecalho-lista"
                     <li class="cabecalho-lista-item">
-                    <a href="#" class="menu__lista-item">Opção 2 </a>
+                         <a href="#" class="menu__lista-item">Opção 2 </a>
                     </li>
-
-                    <ul class="cabecalho-lista"
                     <li class="cabecalho-lista-item">
-                    <a href="#" class="menu__lista-item">Opção 3 </a>
+                         <a href="#" class="menu__lista-item">Opção 3 </a>
                     </li>
-                <ul class="cabecalho-lista">
     
                 </ul>
                 
@@ -135,13 +133,23 @@
              <a href="https://wa.me/meu numero?text=Sou+o+aluno.+cauãramos.+Como+posso+ajudar%3F"> <img src="img/whatsapp.svg" alt="icone do whatsapp" class="estudante-icone"> </a>      
             </div>    
      </section>
-
+    
      <footer class="rodape">
-        <img src="img/alurastart_logo.png" alt="logo da alura" class="rodape-imagem">
-     
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+    </script>   
+    <script>
+        const swiper = new Swiper('.swiper'),{
+             spaceBetween: 10,
+             slidesPerView: 1,
+
+             pagination:{
+                el: '.swiper-pagination',
+                type: 'bullets'
+             }
+
+        }
+    </script>
     
-</html
+</body>

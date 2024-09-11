@@ -1,6 +1,6 @@
 .carrosel__titulo {
     color: var(--cor-pricipal);
-bacckground-color: var(--cor-secundaria);
+background-color: var(--cor-secundaria);
 text-align: center;
 text-transform: uppercase;
 font-size: 18px;
@@ -28,7 +28,7 @@ padding: 1em 0 0.5em 0;
         font-size: 26px ;
     }
     .swiper-pagination {
-        margin: 2em 0 3em 0:
+        margin: 2em 0 3em 0;
     }
 
   .swiper {
@@ -56,4 +56,5 @@ padding: 1em 0 0.5em 0;
     .swiper {
         width: 50%;
     }
+
 }
