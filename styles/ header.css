@@ -23,12 +23,11 @@
 
 .cabecalho-imagem{
     padding: 1em;
-    wid: 20%; // tamanho da logo
 }
 
 .container__imagem{
     padding: 1em;
-    width: 40px;
+    width: 100px;
 }
 
 .cabecalho-lista{
@@ -64,7 +63,7 @@
 ]
 
 .menu_lista-item{
-    background:(--cor-principal) ;
+    background: var(--cor-principal) ;
     color: var(--cor-3)
     -webkit-background-clip: text;
     -webki-text-fill-color: transparent;
