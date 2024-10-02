@@ -42,25 +42,25 @@
     display: block;
 }
 
-    .container_botao.containe{
-        display:none;
-    }
-
-    .cabecalho-lista-titulo{
-         padding:1em
-         color: var(--preto)
-         font-weight: 700;
-         text-transform: uppercase;
-    }
-
-    .cabecalho-lista-item{
-        padding: 1em0;
-        color: var(--cor-principal);
+.container_botao {
+    display:none;
 }
 
-.container-titulo [
+.cabecalho-lista-titulo{
+    padding:1em
+    color: var(--preto);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cabecalho-lista-item{
+    padding: 1em0;
+    color: var(--cor-principal);
+}
+
+.container-titulo {
     display: none;
-]
+}
 
 .menu_lista-item{
     background: var(--cor-principal) ;
@@ -83,7 +83,7 @@
     .container-titulo{
         display: block;
         font-family: var(--fonte-pricipal);
-        font-wight: 400;
+        font-weight: 400;
         font-size: 30px;
     }
     
@@ -116,7 +116,7 @@
     }
     
     .opcoes--botao{
-        display;none;
+        display:none;
     
     }
 
