@@ -47,7 +47,7 @@
 }
 
 .cabecalho-lista-titulo{
-    padding: 1em
+    padding: 1em;
     color: var(--preto);
     font-weight: 700;
     text-transform: uppercase;
@@ -63,10 +63,10 @@
 }
 
 .menu_lista-item{
-    background: var(--cor-principal) ;
-    color: var(--cor-3)
-    webkit-background-clip: text;
-    -webki-text-fill-color: transparent;
+    background: var(--cor-principal);
+    color: var(--cor-3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
 }
@@ -134,11 +134,11 @@
     }
 
     .opcoes {
-        margin-right: auto;
+        margin: auto;
     }
 
-    .container__texto{
-        display:block;
+    .container__texto {
+        display: block;
     }
 
-}
+ }      
