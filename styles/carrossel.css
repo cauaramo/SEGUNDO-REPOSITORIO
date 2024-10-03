@@ -57,6 +57,10 @@
     margin: 0,5em 0;
 }
 
+.descricao__imagem {
+    font-size: 300px;
+}
+
 .descricao__texto {
     font-size: 14px;
 }
