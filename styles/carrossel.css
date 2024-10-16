@@ -74,7 +74,8 @@
 }
 
 .botoes__item {
-    margin: 0 0.em;
+    list-style-type: none;
+    margin: 0 0.5em;
 }
 
 @media screen and (min-width: 1024){
@@ -94,7 +95,7 @@
     .swiper-button-next{
        display: block;
         top:60%
-  }
+    }
 } 
 
 @media screen and  (min-width: 1728){
