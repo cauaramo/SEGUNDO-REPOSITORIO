@@ -1,5 +1,5 @@
 .flashcard{
-    background-color:var(--cor-4);
+    background-color:var(--cor-4); background-color:var(--cor-4);
     display: flex;
 }
 
@@ -22,7 +22,39 @@
     padding: 0.5rem;
     position: absolute;
     margin: 0.6rem;
+    border: 1px solid var(--cor-4);
     border-radius: 0.6;
     font-size: 1vw;
     color: var( --cor-secundaria);
+}
+
+.cartao__conteudo p {
+    color: var(--cor-5);
+    padding: 2rem;
+}
+
+.cartao__conteudo__pergunta p {
+    color: var (--cor-5);
+    font-weight: 500;
+}
+
+.cartao__conteudo__resposta p{
+    color: var(--cor-segundaria);
+    font-weight: 700;
+}
+
+.cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+}
+
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta{
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.cartao__conteudo__resposta{
+    transform: rotate(180deg);
 }
